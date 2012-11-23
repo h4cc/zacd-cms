@@ -27,7 +27,9 @@
         "liip/functional-test-bundle": "dev-master",
         "sonata-project/doctrine-phpcr-admin-bundle": "1.0.*",
         "lunetics/locale-bundle": "dev-master",
-        "symfony-cmf/tree-browser-bundle":"1.0.*"
+        "symfony-cmf/tree-browser-bundle":"1.0.*",
+        "jackalope/jackalope-doctrine-dbal": "dev-master",
+        "liip/doctrine-cache-bundle": "dev-master"
     },
     "suggest": {
         "jackalope/jackalope-doctrine-dbal": "dev-master",
@@ -54,5 +56,8 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "symfony-assets-install": "symlink"
+    },
+    "config": {
+        "process-timeout": 5000
     }
 }

@@ -1,5 +1,5 @@
 {
-    "hash": "2dc977f533d76d41de5049abcd60014a",
+    "hash": "90c66d553b6aacc7de3ac089b825c276",
     "packages": [
         {
             "name": "doctrine/common",
@@ -68,7 +68,7 @@
                 "annotations",
                 "persistence"
             ],
-            "time": "1348120518"
+            "time": "2012-09-20 05:55:18"
         },
         {
             "name": "doctrine/data-fixtures",
@@ -87,7 +87,6 @@
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "1351735543",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -109,7 +108,8 @@
             "homepage": "http://www.doctrine-project.org",
             "keywords": [
                 "database"
-            ]
+            ],
+            "time": "2012-11-01 02:05:43"
         },
         {
             "name": "doctrine/dbal",
@@ -129,7 +129,6 @@
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "1352716871",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -172,7 +171,8 @@
                 "persistence",
                 "dbal",
                 "queryobject"
-            ]
+            ],
+            "time": "2012-11-12 10:41:11"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -204,7 +204,6 @@
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle."
             },
-            "time": "1353074073",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -241,7 +240,8 @@
                 "orm",
                 "persistence",
                 "dbal"
-            ]
+            ],
+            "time": "2012-11-16 13:54:33"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -264,7 +264,6 @@
                 "doctrine/doctrine-bundle": "1.0.*",
                 "symfony/doctrine-bridge": ">=2.1.0,<2.3-dev"
             },
-            "time": "1350914272",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -294,7 +293,8 @@
             "keywords": [
                 "persistence",
                 "Fixture"
-            ]
+            ],
+            "time": "2012-10-22 13:57:52"
         },
         {
             "name": "doctrine/phpcr-bundle",
@@ -323,7 +323,6 @@
                 "doctrine/data-fixtures": "if you want to use the fixture loading",
                 "doctrine/phpcr-odm": "if you want to use the odm as well. require version 1.0.*"
             },
-            "time": "1351700155",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -356,7 +355,8 @@
                 "persistence",
                 "phpcr",
                 "odm"
-            ]
+            ],
+            "time": "2012-10-31 16:15:55"
         },
         {
             "name": "doctrine/phpcr-odm",
@@ -387,7 +387,6 @@
                 "midgard/phpcr": ">=1.3",
                 "symfony/yaml": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "1352889687",
             "bin": [
                 "bin/phpcr",
                 "bin/phpcr.php"
@@ -429,7 +428,8 @@
                 "database",
                 "phpcr",
                 "odm"
-            ]
+            ],
+            "time": "2012-11-14 10:41:27"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -451,7 +451,6 @@
                 "symfony/framework-bundle": ">=2.0,<2.3-dev",
                 "symfony/serializer": ">=2.0,<2.3-dev"
             },
-            "time": "1352768000",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -482,7 +481,8 @@
             "homepage": "http://friendsofsymfony.github.com",
             "keywords": [
                 "Js Routing"
-            ]
+            ],
+            "time": "2012-11-13 00:53:20"
         },
         {
             "name": "friendsofsymfony/rest",
@@ -503,7 +503,6 @@
                 "php": ">=5.3.2",
                 "symfony/http-foundation": ">=2.0,<2.3-dev"
             },
-            "time": "1347135166",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -533,7 +532,8 @@
             "homepage": "http://friendsofsymfony.github.com",
             "keywords": [
                 "rest"
-            ]
+            ],
+            "time": "2012-09-08 20:12:46"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -565,7 +565,6 @@
             "suggest": {
                 "sensio/framework-extra-bundle": "Add support for route annotations"
             },
-            "time": "1353159722",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -600,7 +599,8 @@
             "homepage": "http://friendsofsymfony.github.com",
             "keywords": [
                 "rest"
-            ]
+            ],
+            "time": "2012-11-17 13:42:02"
         },
         {
             "name": "jackalope/jackalope",
@@ -626,7 +626,6 @@
             "provide": {
                 "phpcr/phpcr-implementation": "2.1.0-beta4"
             },
-            "time": "1352906109",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -652,6 +651,65 @@
             "homepage": "http://jackalope.github.com",
             "keywords": [
                 "phpcr implementation"
+            ],
+            "time": "2012-11-14 15:15:09"
+        },
+        {
+            "name": "jackalope/jackalope-doctrine-dbal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jackalope/jackalope-doctrine-dbal",
+                "reference": "f5b23c19bda8e7e3f375cedc2acc8e03d7391406"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jackalope/jackalope-doctrine-dbal/archive/f5b23c19bda8e7e3f375cedc2acc8e03d7391406.zip",
+                "reference": "f5b23c19bda8e7e3f375cedc2acc8e03d7391406",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "doctrine/dbal": ">=2.2.0,<2.4",
+                "jackalope/jackalope": "1.0.*",
+                "phpcr/phpcr": ">=2.1.0-beta6"
+            },
+            "provide": {
+                "jackalope/jackalope-transport": "1.0.0-alpha1"
+            },
+            "require-dev": {
+                "phpcr/phpcr-api-tests": "dev-master"
+            },
+            "suggest": {
+                "phpcr/phpcr-api-tests": "dev-master"
+            },
+            "time": "2012-11-14 12:04:58",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Jackalope\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jackalope Community",
+                    "homepage": "https://github.com/jackalope/jackalope-jackrabbit/contributors"
+                }
+            ],
+            "description": "Jackalope Transport library",
+            "homepage": "http://jackalope.github.com",
+            "keywords": [
+                "transport implementation",
+                "doctrine-dbal"
             ]
         },
         {
@@ -688,7 +746,6 @@
                 "phpcr/phpcr-utils": "dev-master",
                 "symfony/console": ">=2.0.0,<2.2.0-dev"
             },
-            "time": "1352137588",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -715,7 +772,8 @@
             "keywords": [
                 "transport implementation",
                 "jackrabbit"
-            ]
+            ],
+            "time": "2012-11-05 17:46:28"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -908,7 +966,7 @@
                 "dependency injection",
                 "annotations"
             ],
-            "time": "1348217792"
+            "time": "2012-09-21 08:56:32"
         },
         {
             "name": "jms/metadata",
@@ -971,7 +1029,6 @@
             "require": {
                 "phpoption/phpoption": ">=0.9,<2.0-dev"
             },
-            "time": "1353229174",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -987,7 +1044,8 @@
             "license": [
                 "Apache2"
             ],
-            "description": "A library for easily creating recursive-descent parsers."
+            "description": "A library for easily creating recursive-descent parsers.",
+            "time": "2012-11-18 08:59:34"
         },
         {
             "name": "jms/security-extra-bundle",
@@ -1052,7 +1110,7 @@
                 "secure",
                 "expression"
             ],
-            "time": "1346947943"
+            "time": "2012-09-06 16:12:23"
         },
         {
             "name": "jms/serializer-bundle",
@@ -1090,7 +1148,6 @@
             "suggest": {
                 "symfony/framework-bundle": "2.*"
             },
-            "time": "1353162995",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1122,7 +1179,8 @@
                 "serialization",
                 "deserialization",
                 "jaxb"
-            ]
+            ],
+            "time": "2012-11-17 14:36:35"
         },
         {
             "name": "knplabs/knp-menu",
@@ -1151,7 +1209,6 @@
                 "silex/silex": "for the integration with your silex application",
                 "twig/twig": "for the TwigRenderer and the integration with your templates"
             },
-            "time": "1339345240",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1192,7 +1249,8 @@
             "keywords": [
                 "menu",
                 "tree"
-            ]
+            ],
+            "time": "2012-06-10 16:20:40"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -1213,7 +1271,6 @@
                 "knplabs/knp-menu": "1.1.*",
                 "symfony/framework-bundle": ">=2.0,<2.3-dev"
             },
-            "time": "1351623131",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1241,7 +1298,8 @@
             "description": "This bundle provides an integration of the KnpMenu library",
             "keywords": [
                 "menu"
-            ]
+            ],
+            "time": "2012-10-30 18:52:11"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1275,7 +1333,6 @@
                 "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
                 "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin"
             },
-            "time": "1352285252",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1307,6 +1364,50 @@
                 "assets",
                 "compression",
                 "minification"
+            ],
+            "time": "2012-11-07 10:47:32"
+        },
+        {
+            "name": "liip/doctrine-cache-bundle",
+            "version": "dev-master",
+            "target-dir": "Liip/DoctrineCacheBundle",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/liip/LiipDoctrineCacheBundle.git",
+                "reference": "f7c5487c89602d08b95090fb2776f0931d8946a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/liip/LiipDoctrineCacheBundle/archive/f7c5487c89602d08b95090fb2776f0931d8946a1.zip",
+                "reference": "f7c5487c89602d08b95090fb2776f0931d8946a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/symfony": ">=2.0",
+                "doctrine/common": ">=2.2"
+            },
+            "time": "2012-09-14 11:08:20",
+            "type": "symfony-bundle",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Liip\\DoctrineCacheBundle\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                }
+            ],
+            "description": "This Bundle provides integration into Symfony2 with the Doctrine Common Cache layer.",
+            "keywords": [
+                "Symfony2",
+                "cache"
             ]
         },
         {
@@ -1329,7 +1430,6 @@
                 "symfony/framework-bundle": ">=2.0,<2.3-dev",
                 "doctrine/common": "2.*"
             },
-            "time": "1353059200",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1353,7 +1453,8 @@
             "description": "This bundles provides additional functional test-cases for Symfony2 applications",
             "keywords": [
                 "Symfony2"
-            ]
+            ],
+            "time": "2012-11-16 09:46:40"
         },
         {
             "name": "liip/search-bundle",
@@ -1374,7 +1475,6 @@
                 "php": ">=5.3.0",
                 "symfony/framework-bundle": ">2.0,<2.2-dev"
             },
-            "time": "1343042037",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1402,7 +1502,8 @@
             "description": "This bundles provides some basic infrastructure for creating a search UI in Symfony2 applications along with integration with Google's search API",
             "keywords": [
                 "Symfony2"
-            ]
+            ],
+            "time": "2012-07-23 11:13:57"
         },
         {
             "name": "lunetics/locale-bundle",
@@ -1433,7 +1534,6 @@
             "suggest": {
                 "ext-intl": "Needed for displaying the countryname in the locale language"
             },
-            "time": "1351301241",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1463,7 +1563,8 @@
                 "multilanguage",
                 "language",
                 "cookie"
-            ]
+            ],
+            "time": "2012-10-27 01:27:21"
         },
         {
             "name": "midgard/createphp",
@@ -1482,7 +1583,6 @@
             "require-dev": {
                 "twig/twig": ">=1.8,<2.0-dev"
             },
-            "time": "1352926842",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -1503,7 +1603,8 @@
             "description": "PHP adapter for Create.js",
             "keywords": [
                 "rdfa"
-            ]
+            ],
+            "time": "2012-11-14 21:00:42"
         },
         {
             "name": "monolog/monolog",
@@ -1530,7 +1631,6 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server"
             },
-            "time": "1352907970",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1559,7 +1659,8 @@
             "keywords": [
                 "log",
                 "logging"
-            ]
+            ],
+            "time": "2012-11-14 15:46:10"
         },
         {
             "name": "phpcr/phpcr",
@@ -1578,7 +1679,6 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "1352903597",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1613,7 +1713,8 @@
             "keywords": [
                 "phpcr",
                 "contentrepository"
-            ]
+            ],
+            "time": "2012-11-14 14:33:17"
         },
         {
             "name": "phpcr/phpcr-utils",
@@ -1634,7 +1735,6 @@
                 "phpcr/phpcr": ">=2.1.0-beta5",
                 "symfony/console": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "1353075233",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1675,7 +1775,8 @@
                 "phpcr",
                 "contentrepository",
                 "cli"
-            ]
+            ],
+            "time": "2012-11-16 14:13:53"
         },
         {
             "name": "phpoption/phpoption",
@@ -1694,7 +1795,6 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "1353021234",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1724,7 +1824,8 @@
                 "language",
                 "type",
                 "option"
-            ]
+            ],
+            "time": "2012-11-15 23:13:54"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1744,7 +1845,6 @@
             "require": {
                 "symfony/framework-bundle": "2.1.*"
             },
-            "time": "1347340208",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1770,7 +1870,8 @@
             "keywords": [
                 "distribution",
                 "configuration"
-            ]
+            ],
+            "time": "2012-09-11 05:10:08"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1791,7 +1892,7 @@
                 "symfony/framework-bundle": "2.1.*",
                 "doctrine/common": ">=2.1,<2.4-dev"
             },
-            "time": "1350448707",
+            "time": "2012-10-17 04:38:27",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1843,7 +1944,7 @@
                 "doctrine/orm": ">=2.1,<2.4-dev",
                 "twig/twig": ">=1.8,<2.0-dev"
             },
-            "time": "1352464423",
+            "time": "2012-11-09 12:33:43",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1904,7 +2005,6 @@
                 "sonata-project/doctrine-orm-admin-bundle": "dev-master",
                 "sonata-project/intl-bundle": "dev-master"
             },
-            "time": "1353162754",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1933,7 +2033,8 @@
                 "Admin Generator",
                 "sonata",
                 "bootstrap"
-            ]
+            ],
+            "time": "2012-11-17 14:32:34"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -1962,7 +2063,6 @@
                 "sonata-project/admin-bundle": "dev-master",
                 "sonata-project/cache-bundle": "dev-master"
             },
-            "time": "1352937267",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1989,7 +2089,8 @@
             "keywords": [
                 "sonata",
                 "block"
-            ]
+            ],
+            "time": "2012-11-14 23:54:27"
         },
         {
             "name": "sonata-project/doctrine-phpcr-admin-bundle",
@@ -2019,7 +2120,6 @@
             "suggest": {
                 "symfony-cmf/tree-browser-bundle": "to have a tree widget for phpcr data. require version 1.0.*"
             },
-            "time": "1350897185",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2052,7 +2152,8 @@
                 "Admin Generator",
                 "sonata",
                 "bootstrap"
-            ]
+            ],
+            "time": "2012-10-22 09:13:05"
         },
         {
             "name": "sonata-project/exporter",
@@ -2101,7 +2202,7 @@
                 "client",
                 "export"
             ],
-            "time": "1346967589"
+            "time": "2012-09-06 21:39:49"
         },
         {
             "name": "sonata-project/jquery-bundle",
@@ -2152,7 +2253,7 @@
                 "jquery",
                 "sonata"
             ],
-            "time": "1346283282"
+            "time": "2012-08-29 23:34:42"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2178,7 +2279,7 @@
                     "dev-master": "4.2-dev"
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "lib/swift_required.php"
@@ -2225,7 +2326,6 @@
                 "doctrine/phpcr-bundle": "1.0.*",
                 "doctrine/phpcr-odm": "1.0.*"
             },
-            "time": "1351276051",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2253,7 +2353,8 @@
                 "block",
                 "Symfony CMF",
                 "content fragments"
-            ]
+            ],
+            "time": "2012-10-26 18:27:31"
         },
         {
             "name": "symfony-cmf/content-bundle",
@@ -2280,7 +2381,6 @@
             "suggest": {
                 "friendsofsymfony/rest-bundle": "Improved handling for different output formats"
             },
-            "time": "1352894443",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2306,7 +2406,8 @@
             "homepage": "http://cmf.symfony.com",
             "keywords": [
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2012-11-14 12:00:43"
         },
         {
             "name": "symfony-cmf/core-bundle",
@@ -2334,7 +2435,6 @@
             "suggest": {
                 "symfony/twig-bundle": ">=2.1,<2.3-dev"
             },
-            "time": "1351276096",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2360,7 +2460,8 @@
             "homepage": "http://cmf.symfony.com",
             "keywords": [
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2012-10-26 18:28:16"
         },
         {
             "name": "symfony-cmf/create-bundle",
@@ -2387,7 +2488,6 @@
             "suggest": {
                 "dms/dms-filter": "if you want to filter content on your fields"
             },
-            "time": "1353058633",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2413,7 +2513,8 @@
                     "homepage": "https://github.com/symfony-cmf/CreateBundle/contributors"
                 }
             ],
-            "description": "Symfony Bundle for createphp and create.js. The easiest way to make any site editable and have semantic annotations with RDFa."
+            "description": "Symfony Bundle for createphp and create.js. The easiest way to make any site editable and have semantic annotations with RDFa.",
+            "time": "2012-11-16 09:37:13"
         },
         {
             "name": "symfony-cmf/menu-bundle",
@@ -2443,7 +2544,6 @@
             "suggest": {
                 "sonata-project/doctrine-phpcr-admin-bundle": "if you want to have editing capabilities"
             },
-            "time": "1351769620",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2470,7 +2570,8 @@
             "keywords": [
                 "menu",
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2012-11-01 11:33:40"
         },
         {
             "name": "symfony-cmf/routing",
@@ -2492,7 +2593,6 @@
                 "symfony/routing": ">=2.1,<2.3-dev",
                 "symfony/http-kernel": ">=2.1,<2.3-dev"
             },
-            "time": "1353227742",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2519,7 +2619,8 @@
             "keywords": [
                 "database",
                 "routing"
-            ]
+            ],
+            "time": "2012-11-18 08:35:42"
         },
         {
             "name": "symfony-cmf/routing-extra-bundle",
@@ -2558,7 +2659,6 @@
                 "symfony-cmf/content-bundle": "To optionally use the configured value for 'content_basepath' from the CoreBundle",
                 "sonata-project/doctrine-phpcr-admin-bundle": "To provide an admin interface for the PHPCR ODM documents"
             },
-            "time": "1353228219",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2585,7 +2685,8 @@
             "keywords": [
                 "database",
                 "routing"
-            ]
+            ],
+            "time": "2012-11-18 08:43:39"
         },
         {
             "name": "symfony-cmf/search-bundle",
@@ -2607,7 +2708,6 @@
                 "symfony/framework-bundle": "2.1.*",
                 "liip/search-bundle": "dev-master"
             },
-            "time": "1351276221",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -2629,7 +2729,8 @@
             "keywords": [
                 "database",
                 "search"
-            ]
+            ],
+            "time": "2012-10-26 18:30:21"
         },
         {
             "name": "symfony-cmf/simple-cms-bundle",
@@ -2659,7 +2760,6 @@
                 "symfony-cmf/create-bundle": "1.0.*",
                 "sonata-project/doctrine-phpcr-admin-bundle": "1.0.*"
             },
-            "time": "1351276323",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2686,7 +2786,8 @@
             "keywords": [
                 "cms",
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2012-10-26 18:32:03"
         },
         {
             "name": "symfony-cmf/symfony-cmf",
@@ -2717,7 +2818,6 @@
             "suggest": {
                 "symfony-cmf/simple-cms-bundle": "1.0.*"
             },
-            "time": "1351276297",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2740,7 +2840,8 @@
                 }
             ],
             "description": "Symfony Content Management Framework",
-            "homepage": "http://cmf.symfony.com"
+            "homepage": "http://cmf.symfony.com",
+            "time": "2012-10-26 18:31:37"
         },
         {
             "name": "symfony-cmf/tree-browser-bundle",
@@ -2776,7 +2877,6 @@
                 "doctrine/phpcr-bundle": "1.0.*",
                 "doctrine/phpcr-odm": "1.0.*"
             },
-            "time": "1352110570",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2804,7 +2904,8 @@
                 "phpcr",
                 "tree",
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2012-11-05 10:16:10"
         },
         {
             "name": "symfony-cmf/tree-bundle",
@@ -2825,7 +2926,6 @@
                 "php": ">=5.3.2",
                 "symfony/symfony": ">=2.1,<2.3-dev"
             },
-            "time": "1351276270",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2853,7 +2953,8 @@
                 "tree",
                 "jquery",
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2012-10-26 18:31:10"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2887,7 +2988,6 @@
             "suggest": {
                 "symfony/twig-bundle": ">=2.1.0,<2.3-dev"
             },
-            "time": "1352285268",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2916,7 +3016,8 @@
                 "assets",
                 "compression",
                 "minification"
-            ]
+            ],
+            "time": "2012-11-07 10:47:48"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -2971,7 +3072,7 @@
             ],
             "description": "Symfony MonologBundle",
             "homepage": "http://symfony.com",
-            "time": "1348137624"
+            "time": "2012-09-20 10:40:24"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -2999,7 +3100,7 @@
                 "symfony/config": ">=2.1.0,<2.3-dev",
                 "symfony/yaml": ">=2.1.0,<2.3-dev"
             },
-            "time": "1350447491",
+            "time": "2012-10-17 04:18:11",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -3088,7 +3189,6 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "1353172006",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3119,7 +3219,8 @@
             "homepage": "http://symfony.com",
             "keywords": [
                 "framework"
-            ]
+            ],
+            "time": "2012-11-17 17:06:46"
         },
         {
             "name": "twig/extensions",
@@ -3138,7 +3239,6 @@
             "require": {
                 "twig/twig": "1.*"
             },
-            "time": "1349889206",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3166,7 +3266,8 @@
                 "debug",
                 "i18n",
                 "text"
-            ]
+            ],
+            "time": "2012-10-10 17:13:26"
         },
         {
             "name": "twig/twig",
@@ -3185,7 +3286,6 @@
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "1353099404",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3215,7 +3315,8 @@
             "homepage": "http://twig.sensiolabs.org",
             "keywords": [
                 "templating"
-            ]
+            ],
+            "time": "2012-11-16 20:56:44"
         }
     ],
     "packages-dev": null,
@@ -3229,6 +3330,8 @@
         "doctrine/data-fixtures": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
         "liip/functional-test-bundle": 20,
-        "lunetics/locale-bundle": 20
+        "lunetics/locale-bundle": 20,
+        "jackalope/jackalope-doctrine-dbal": 20,
+        "liip/doctrine-cache-bundle": 20
     }
 }
